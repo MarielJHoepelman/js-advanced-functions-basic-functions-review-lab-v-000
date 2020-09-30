@@ -28,4 +28,6 @@ function actionApplyer(startingInteger, arrayOfFunctions){
   if (arrayOfFunctions.length < 1) {
     return startingInteger
   }
+
+  
 }
