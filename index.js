@@ -17,6 +17,7 @@ function wrapAdjective(symbol = "*"){
 //   return `You are ${symbol}${adjective}${symbol}!`
 // }
 
-function calculator(){
-  let Calculator = {};
+const Calculator = {
+    add: function (a,b) {return a + b}
+
 }
