@@ -31,6 +31,6 @@ function actionApplyer(startingInteger, arrayOfFunctions){
 
   let int = startingInteger;
   for (const operation in arrayOfFunctions) {
-    
+
   }
 }
