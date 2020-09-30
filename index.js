@@ -31,7 +31,7 @@ function actionApplyer(startingInteger, arrayOfFunctions){
 
   let number = startingInteger;
   for (const operation of arrayOfFunctions) {
-    console.log(operation);
+    console.log(operation(startingInteger));
     // perform operation in number
     //value of number is new value
     //when loop is done return the value after all operations has been performed
