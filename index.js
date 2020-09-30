@@ -30,10 +30,10 @@ function actionApplyer(startingInteger, arrayOfFunctions){
   }
 
   let number = startingInteger;
-  let result = 0;
+  let result = startingInteger;
   for (const operation of arrayOfFunctions) {
 
-    let result = operation(number));
+    result = operation(result));
     // perform operation in number
     //value of number is new value
     //when loop is done return the value after all operations has been performed
