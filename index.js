@@ -26,10 +26,6 @@ const Calculator = {
 }
 
 function actionApplyer(startingInteger, arrayOfFunctions){
-  // if (arrayOfFunctions.length < 1) {
-  //   return startingInteger
-  // }
-
   let result = startingInteger;
   for (const operation of arrayOfFunctions) {
     result = operation(result);
