@@ -29,7 +29,7 @@ function actionApplyer(startingInteger, arrayOfFunctions){
     return startingInteger
   }
 
-  let int = startingInteger;
+  let number = startingInteger;
   for (const operation in arrayOfFunctions) {
 
   }
