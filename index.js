@@ -13,6 +13,7 @@ function wrapAdjective(symbol = "*"){
   }
 }
 
+//same as above
 // const wrapAdjective = (symbol = "*") => (adjective) => {
 //   return `You are ${symbol}${adjective}${symbol}!`
 // }
