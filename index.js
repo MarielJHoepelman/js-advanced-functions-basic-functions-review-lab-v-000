@@ -18,5 +18,5 @@ function wrapAdjective(symbol = "*"){
 // }
 
 function calculator(){
-  let Calculator = {},
+  let Calculator = {};
 }
