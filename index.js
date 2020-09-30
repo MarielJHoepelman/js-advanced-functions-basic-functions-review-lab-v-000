@@ -24,6 +24,6 @@ const Calculator = {
   divide: function (a, b) {return a/b}
 }
 
-function actionApplyer(satartingInteger, arrayOfFunctions){
-  
+function actionApplyer(startingInteger, arrayOfFunctions){
+
 }
