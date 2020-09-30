@@ -30,6 +30,7 @@ function actionApplyer(startingInteger, arrayOfFunctions){
   }
 
   let result = startingInteger;
+  let number;
   for (const operation of arrayOfFunctions) {
     result = operation(result);
   }
