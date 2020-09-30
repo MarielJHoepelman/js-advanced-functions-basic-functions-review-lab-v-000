@@ -29,11 +29,11 @@ function actionApplyer(startingInteger, arrayOfFunctions){
     return startingInteger
   }
 
-  let number = startingInteger;
   let result = startingInteger;
   for (const operation of arrayOfFunctions) {
 
-    result = operation(result));
+    result = operation(result);
+    console.log(result)
     // perform operation in number
     //value of number is new value
     //when loop is done return the value after all operations has been performed
