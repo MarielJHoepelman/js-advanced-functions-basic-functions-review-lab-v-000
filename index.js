@@ -33,10 +33,6 @@ function actionApplyer(startingInteger, arrayOfFunctions){
   for (const operation of arrayOfFunctions) {
 
     result = operation(result);
-
-    console.log(result)
-    // perform operation in number
-    //value of number is new value
-    //when loop is done return the value after all operations has been performed
   }
+  return result
 }
