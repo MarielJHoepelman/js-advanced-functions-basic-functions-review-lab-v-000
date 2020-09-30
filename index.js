@@ -30,7 +30,7 @@ function actionApplyer(startingInteger, arrayOfFunctions){
   }
 
   let number = startingInteger;
-  for (const operation in arrayOfFunctions) {
+  for (const operation of arrayOfFunctions) {
     console.log(operation);
     // perform operation in number
     //value of number is new value
