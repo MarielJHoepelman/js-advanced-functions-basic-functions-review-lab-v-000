@@ -17,6 +17,6 @@ function wrapAdjective(symbol = "*"){
 //   return `You are ${symbol}${adjective}${symbol}!`
 // }
 
-function Calculator(){
-  
+function calculator(){
+  let Calculator = {},
 }
