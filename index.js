@@ -16,5 +16,3 @@ function wrapAdjective(symbol = "*"){
 // const wrapAdjective = (symbol = "*") => (adjective) => {
 //   return `You are ${symbol}${adjective}${symbol}!`
 // }
-
-const calculator = {};
