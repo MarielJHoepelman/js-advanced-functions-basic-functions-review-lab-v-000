@@ -25,5 +25,5 @@ const Calculator = {
 }
 
 function actionApplyer(number, array){
-  if 
+  
 }
