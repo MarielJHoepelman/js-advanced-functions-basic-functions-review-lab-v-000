@@ -18,6 +18,9 @@ function wrapAdjective(symbol = "*"){
 // }
 
 const Calculator = {
+  function calculate(operation){
+    return function (a,b) {return a ${operation} b},
+  }
   add: function (a,b) {return a + b},
   subtract: function (a,b) {return a-b},
   multiply: function (a,b) {return a*b},
